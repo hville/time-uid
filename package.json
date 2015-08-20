@@ -1,0 +1,19 @@
+{
+  "name": "time-uid",
+  "version": "0.0.1",
+  "description": "simple ",
+  "main": "./time-uid.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "4.2.0"
+  },
+  "scripts": {
+    "test": "tape"
+  },
+  "keywords": [],
+  "author": "Hugo Villeneuve",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  }
+}
