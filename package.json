@@ -1,19 +1,22 @@
 {
-  "name": "time-uid",
   "version": "0.0.1",
   "description": "simple ",
   "main": "./time-uid.js",
   "dependencies": {},
   "devDependencies": {
-    "tape": "4.2.0"
+    "cotest": "^1.6.1"
   },
   "scripts": {
-    "test": "tape"
+    "test": "untap"
   },
   "keywords": [],
   "author": "Hugo Villeneuve",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "directories": {
     "test": "test"
-  }
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4873/"
+  },
+  "name": "@private/time-uid"
 }
