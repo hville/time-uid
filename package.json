@@ -1,22 +1,26 @@
 {
+  "name": "time-uid",
   "version": "0.0.1",
-  "description": "simple ",
-  "main": "./time-uid.js",
+  "description": "shorter uid with configurable time and random components length",
+  "keywords": [
+    "firebase", "distributed", "uid", "unique", "Lexicographical"
+  ],
+  "author": "Hugo Villeneuve",
+  "main": "./index.js",
   "dependencies": {},
   "devDependencies": {
     "cotest": "^1.6.1"
   },
   "scripts": {
-    "test": "untap"
+    "test": "cotest test"
   },
-  "keywords": [],
-  "author": "Hugo Villeneuve",
-  "license": "UNLICENSED",
-  "directories": {
-    "test": "test"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hville/time-uid.git"
   },
+  "private": false,
+  "license": "MIT",
   "publishConfig": {
-    "registry": "http://localhost:4873/"
-  },
-  "name": "@private/time-uid"
+    "registry": "https://registry.npmjs.org/"
+  }
 }

@@ -4,7 +4,7 @@ var TUID = require('../time-uid'),
 var set = new Set(),
 		lasts = Array(10).fill(''),
 		users = lasts.map(()=>TUID()),
-		N = 100000
+		N = 10000
 
 t('individually increasing and collectively unique', ()=>{
 	for (var i=0; i<N; ++i) {
@@ -17,5 +17,6 @@ t('individually increasing and collectively unique', ()=>{
 		}
 	}
 	t('===', true, true)
+	console.log(lasts)
 })
 
